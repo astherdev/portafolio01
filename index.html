@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mi Portafolio</title>
+</head>
+<body>
+    <header>
+        <!-- El encabezado -->
+
+        <div class="encabezado">
+            <h1>Luis Carlos Hernandez Henao</h1>
+            <p id="titulo">Desarrollador Web</p>
+
+            <!-- Etiqueta button que nos ayuda a hacer el menú hamburguesa -->
+
+            <button class="abrir-menu" onclick="mostrarOcultarMenu()">≣</button>
+            <nav class="nav" id="nav">
+
+                <!-- Navegación para navegar por la página web-->
+
+                <ul class="nav2">
+                    <li><a href="#inicio">Sobre Mí</a></li>
+                    <li><a href="#habilidades-1">Habilidades</a></li>
+                    <li><a href="#proyecto-1">Proyectos</a></li>
+                    <li><a href="#contacto-1">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- imagen principal-->
+    <img id="foto" src="/img/imagen-portafolio.jpg">
+    <!-- Sección 1-->
+    <section id="inicio"></section>
+        <div class="contenedor-descripcion">
+            <div class="descripcion">
+                <!-- Breve descripción sobre mí-->
+                <h2>Sobre Mí</h2>
+                <p>Mi nombre es Luis Carlos Hernandez Henao, soy una persona dedicada a aprender, con un fuerte interés en el Análisis y Desarrollo de Software. Disfruto colaborando con equipos y me esfuerzo por apoyar de manera significativa en cada proyecto en el que participo. Soy una persona sociable y eso me permite adaptarme bien a diferentes entornos de trabajo, y siempre estoy buscando oportunidades para demostrar mis conocimientos y habilidades. Mi objetivo es convertirme en un programador fullstack, con la aspiración de aportar mis capacidades a proyectos de alcance global.</p>
+                <h2>Información de contacto</h2>
+                <nav>
+                    <!-- Navegación para los perfiles de facebook, Instragram y GitHub-->
+                    <p class="info">Correo Electrónico: lchernandez4474@gmail.com</p>
+                    <p class="info">Número Telefónico: 3127742561</p>
+                    <a href="https://www.facebook.com/profile.php?id=100089238320713"><img src="/img/icons8-facebook-nuevo-50.png"></a>
+                    <a href="https://www.instagram.com/luis_hernandez.sl?igsh=MTQ3dWt4aDJuZzZ2bA=="><img src="/img/icons8-instagram-50.png"></a>
+                    <a href="https://github.com/astherdev"><img src="/img/icons8-github-50.png"></a>
+                </nav>
+            </div>
+        </div>
+        <!-- sección 2 -->
+    <section id="habilidades-1"></section>
+        <div class="contenedor-habilidades">
+            <div class="habilidades">
+                <h2>Habilidades</h2>
+                <table>
+                    <!-- tabla de habilidades-->
+                    <tr>
+                        <th>Lenguajes de Programación</th>
+                        <th>Herramientas de Diseño</th>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Ilustrator</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>CSS</td>
+                    </tr>
+                    <tr>
+                        <td>Java</td>
+                        <td>Photoshop</td>
+                    </tr>
+                </table>
+                <!-- Barras de progreso-->
+                <div class="barras-progreso">
+                    <div class="habilidad">
+                        <span>Python</span>
+                        <div class="barra-progreso">
+                            <div class="progreso" style="width: 45%;"></div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>JavaScript</span>
+                        <div class="barra-progreso">
+                            <div class="progreso" style="width: 40%;"></div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Java</span>
+                        <div class="barra-progreso">
+                            <div class="progreso" style="width: 35%;"></div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Figma</span>
+                        <div class="barra-progreso">
+                            <div class="progreso" style="width: 45%;"></div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>CSS</span>
+                        <div class="barra-progreso">
+                            <div class="progreso" style="width: 46%;"></div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Photoshop</span>
+                        <div class="barra-progreso">
+                            <div class="progreso" style="width: 30%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Seccion 3-->
+    <section id="proyecto-1"></section>
+        <div class="contenedor-proyecto">
+            <div class="proyectos">
+                <h2>Proyectos</h2>
+                <!-- Descripción del proyecto -->
+                <div class="proyecto">
+                    <h2>Proyecto N° 1</h2>
+                    <p>Este proyecto está enfocado en la gestión y seguimiento de los resultados obtenidos por los aprendices del SENA CDITI, específicamente en el área de Análisis y Desarrollo de Software (ADSO). Su principal objetivo es crear una plataforma que permita evaluar y mejorar el rendimiento académico y práctico de los aprendices, brindando herramientas para la gestión eficiente de la información y la visualización de datos de manera clara y accesible.</p>
+                    <!-- Imagen del proyecto-->
+                    <img src="/img/index.png" alt="Proyecto 1"  class="project-image">
+                    <!-- Info 2 para mostrar la descripción de como se realizo el proyecto -->
+                    <div class="info2">
+                        <p>Las tecnologías utilizadas en este proyecto incluyen HTML, CSS, JavaScript y Figma. Al comienzo, todo era muy confuso y difícil de entender; me sentía perdido y abrumado. Sin embargo, superé estos desafíos mirando tutoriales en YouTube y consultando documentación. Los tutoriales fueron especialmente útiles, ya que al ver cada paso, pude aplicarlo a mi manera y modificar cada línea según lo entendía, lo que facilitó mucho el aprendizaje. Al consultar documentación relevante, logré entender conceptos y técnicas que me permitieron avanzar y desarrollar una solución efectiva. Este enfoque me permitió crear una plataforma funcional, mejorando tanto mis habilidades como el resultado del proyecto.</p>
+                    </div>
+                </div>
+                <!-- Poryecto 2 -->
+                <div class="proyecto">
+                    <h2>Proyecto N° 2</h2>
+                    <p>Esta es una página web que creé para el área de inglés, titulada "Isidor's Adventures". La página se centra en Isidor, un águila originaria de la región de Risaralda, Colombia. En ella, presento quién es Isidor y relato las fascinantes aventuras que ha vivido alrededor del mundo. La página está completamente en inglés y tiene como objetivo tanto compartir la historia de este impresionante ave como ofrecer una experiencia educativa y cultural.</p>
+
+                    <img src="/img/isidor.png" alt="Proyecto 2" class="project-image">
+                    <div class="info2">
+
+                        <p>Las tecnologías utilizadas en el desarrollo de esta página incluyen HTML, CSS, JavaScript y Figma. Al inicio, enfrenté desafíos debido a la confusión y dificultad para entender algunos conceptos; todo era muy confuso y me sentía muy perdido.  logré superar estos obstáculos a través de tutoriales en YouTube. Estos me ayudaron mucho, ya que cuando veía algo, empezaba a hacerlo a mi manera y modificaba cada línea uno por uno, lo que me permitió entender mucho mejor. Consulté documentación relevante, lo que me permitió construir una página web efectiva y atractiva.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+        <!-- sección 4 -->
+    <section id="contacto-1"></section>
+        <div class="contenedor-contacto">
+            <div class="contacto">
+                <h2>Contacto</h2>
+                <!-- Nos ayuda a validar el formulario -->
+                <form action="/enviar-mensaje" method="post" onsubmit="return validarFormulario()">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo" required>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+        <!-- pie de página -->
+    <footer>
+        &copy; 2024 Luis Carlos Hernandez Henao, todos los derechos reservados.
+        <nav>
+            <a href="https://www.facebook.com/profile.php?id=100089238320713"><img src="/img/icons8-facebook-nuevo-50.png"></a>
+            <a href="https://www.instagram.com/luis_hernandez.sl?igsh=MTQ3dWt4aDJuZzZ2bA=="><img src="/img/icons8-instagram-50.png"></a>
+            <a href="https://github.com/astherdev"><img src="/img/icons8-github-50.png"></a>
+        </nav>
+
+    </footer>
+    <script src="js/js1.js"></script>
+</body>
+</html>
